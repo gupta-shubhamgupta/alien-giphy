@@ -1,0 +1,49 @@
+.search{
+    margin:10px;
+    margin-top: 20px;
+    margin-left: 40%;
+
+}
+input:focus{
+    outline: none;
+}
+.input-search{
+    padding: 8px;
+    border: 2px solid black;
+    border-radius: 10px;
+    outline: none;
+}
+button{
+    padding: 8px;
+    border-radius: 10px;
+    outline: none;
+    background-color: blanchedalmond;
+}
+.display{
+    margin-left:50px ;
+}
+.image{
+    margin: 30px;
+    height:350px;
+    width:350px;
+    border: 5px solid #ddd;
+    border-radius: 10px;
+}
+
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(50, 0, 186, 0.5);
+  }
+.not-found{
+    margin:10px;
+    margin-top: 40px;
+    margin-left: 40%;
+    font-size: 25px;
+    color: red;
+  }
+  .error{
+    margin:10px;
+    margin-top: 40px;
+    margin-left: 40%;
+    font-size: 25px;
+    color:red;
+  }
