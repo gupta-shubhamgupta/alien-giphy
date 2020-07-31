@@ -47,3 +47,36 @@ img:hover {
     font-size: 25px;
     color:red;
   }
+
+ @media only screen and (max-width: 700px){
+  
+    body{
+        text-align:center;
+        margin: 0 auto;
+        background-color: blue;
+    }
+    .search{
+        margin:10px;
+        margin-top: 20px;
+        margin-left: 10%;
+    
+    }
+    .display{
+        margin-left:10px ;
+    }
+
+    .not-found{
+        margin:10px;
+        margin-top: 40px;
+        margin-left:10%;
+        font-size: 25px;
+        color: red;
+      }
+      .error{
+        margin:10px;
+        margin-top: 40px;
+        margin-left: 10%;
+        font-size: 25px;
+        color:red;
+      }
+}
